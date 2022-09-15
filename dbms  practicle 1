@@ -1,0 +1,11 @@
+create table std (rollno number(2), studentname varchar(10), schoolname varchar(20), marks number(2));
+insert into std values(1,'ajit','xavier',,58); 
+insert into std values(2,'alisha','sharda',85); 
+insert into std values(3,'pratixa','a-one',85);
+insert into std values(4,'deepam','h.b.k',86);
+insert into std values(5,'nisha','santkabir',87); 
+insert into std values(6,'anya','xavier',67); 
+insert into std values(7,'raj','a-one',76); 
+insert into std values(8,'monish','sharda',76);
+select *from std;
+
